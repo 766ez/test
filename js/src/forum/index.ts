@@ -10,6 +10,7 @@ export { default as extend } from './extend';
 app.initializers.add('766-test', () => {
   extend(UserControls, "test", (items, user) => {
     items.add('test-a', Button.component({
+      children: app.translator.trans("test-birthday.forum.settings.link"),
       onclick() {
         console.log("a")
       }

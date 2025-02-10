@@ -58,7 +58,7 @@
             "url": "https://github.com/766ez/test"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {

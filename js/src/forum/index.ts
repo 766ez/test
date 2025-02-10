@@ -5,9 +5,7 @@ import Button from 'flarum/components/Button';
 
 import TestComponent from './components/TestComponent';
 
-export { default as extend } from './extend';
-
 app.initializers.add('766-test', () => {
-
+  app.route.test = {path: "/test", component: TestComponent}
   console.log('[766/test] Hello, forum!');
 });

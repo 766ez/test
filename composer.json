@@ -17,8 +17,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "766\\Test\\": "src/"
+    "psr-4": {
+        "TestExtension\\": "src/"
         }
     },
     "extra": {

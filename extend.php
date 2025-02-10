@@ -1,6 +1,6 @@
 <?php
 
-namespace 766\Test;
+namespace TestExtension;
 
 use Flarum\Extend;
 
